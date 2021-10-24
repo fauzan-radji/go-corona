@@ -1,0 +1,42 @@
+.text-center {
+  text-align: center;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.ghost-font {
+  color: var(--bright-gray);
+}
+
+.btn {
+  padding: 1em 2.2em;
+  border-radius: 0.4em;
+  border: none;
+}
+
+.btn-primary {
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+.btn-danger {
+  background-color: var(--red);
+  color: var(--white);
+}
+
+.hl-primary {
+  color: var(--blue);
+}
+
+.hl-danger {
+  color: var(--red);
+}
+
+.card {
+  background-color: var(--white);
+  padding: 1em;
+  border-radius: 1em;
+  box-shadow: 0px 2px 24px rgba(88, 126, 236, 0.15);
+}

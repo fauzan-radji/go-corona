@@ -1,0 +1,67 @@
+@import url("reset.css");
+@import url("utils.css");
+@import url("fonts.css");
+@import url("colors.css");
+@import url("bootstrap-grid.min.css");
+
+.header {
+  background-image: url("../img/bg-1.png");
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+
+  padding-top: 2em;
+  padding-bottom: 4em;
+}
+
+.navigation {
+  font-size: 0.8em;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links a {
+  display: block;
+  padding: 1em;
+  color: var(--black);
+  letter-spacing: 1px;
+}
+
+.heading {
+  font-size: 2.5em;
+}
+
+.description {
+  font-size: 0.9em;
+  line-height: 1.6;
+  color: var(--gray);
+  margin: 1em 0 1.2em;
+}
+
+.talk-to-experts {
+  background-image: url(../img/bg-2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+}
+
+.talk-to-experts .card h3 {
+  font-size: 2em;
+  color: var(--red);
+}
+
+.talk-to-experts .card span {
+  font-size: 0.7em;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+}
+
+.healthcare-at-your-fingertips {
+  background-image: url(../img/bg-3.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}

@@ -1,0 +1,72 @@
+/* Raleway */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap");
+
+/* Rubik */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap");
+
+/* Inter Regular */
+@font-face {
+  font-family: "interregular";
+  src: url("../fonts/Inter-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+/* Inter Medium */
+@font-face {
+  font-family: "intermedium";
+  src: url("../fonts/Inter-Medium.ttf") format("truetype");
+  font-weight: normal;
+}
+
+/* Inter Bold */
+@font-face {
+  font-family: "interbold";
+  src: url("../fonts/Inter-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+/* Inter Extra Bold */
+@font-face {
+  font-family: "interextrabold";
+  src: url("../fonts/Inter-ExtraBold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+/* Inter Black */
+@font-face {
+  font-family: "interblack";
+  src: url("../fonts/Inter-Black.ttf") format("truetype");
+  font-weight: bolder;
+}
+
+body,
+.font-regular {
+  font-family: "Rubik", "interregular", Arial, Helvetica, sans-serif;
+}
+
+.font-medium {
+  font-family: "Rubik", "intermedium", Arial, Helvetica, sans-serif;
+}
+
+.font-bold {
+  font-family: "Rubik", "interbold", Arial, Helvetica, sans-serif;
+}
+
+.font-extrabold,
+.heading {
+  font-family: "Rubik", "interextrabold", Arial, Helvetica, sans-serif;
+}
+
+.font-black {
+  font-family: "Rubik", "interblack", Arial, Helvetica, sans-serif;
+}
+
+.btn,
+.font-link,
+.font-btn {
+  font-family: "Raleway", "interregular", sans-serif;
+}
+
+.font-link {
+  font-weight: 600;
+}
