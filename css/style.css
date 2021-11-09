@@ -1,33 +1,15 @@
 @import url("reset.css");
+@import url("nav.css");
 @import url("utils.css");
 @import url("fonts.css");
 @import url("colors.css");
 @import url("bootstrap-grid.min.css");
 
 .header {
-  background-image: url("../img/bg-1.png");
-  background-position: right;
-  background-size: contain;
-  background-repeat: no-repeat;
-  min-height: 100vh;
+  min-height: calc(100vh - 6em);
 
   padding-top: 2em;
   padding-bottom: 4em;
-}
-
-.navigation {
-  font-size: 0.8em;
-}
-
-.nav-links {
-  list-style: none;
-}
-
-.nav-links a {
-  display: block;
-  padding: 1em;
-  color: var(--black);
-  letter-spacing: 1px;
 }
 
 .heading {
@@ -64,4 +46,8 @@
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+}
+
+.healthcare-at-your-fingertips .card p {
+  color: var(--gray);
 }
